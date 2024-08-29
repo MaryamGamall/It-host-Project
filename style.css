@@ -1,0 +1,723 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #554171; 
+}
+li{
+    list-style-type: none;
+}
+img{
+    max-width: 100%;
+}
+
+/* start css to the header */
+header{
+    background: url("img/bg.jpg.webp") center/cover no-repeat;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 30px 0px;
+}
+header nav{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+}
+header nav .logo{
+    width: 20%;
+    text-align: center;
+}
+header nav .menu{
+    width: 80%;
+    text-align: center;
+    padding-left: 120px;
+}
+header nav .menu ul li{
+    display: inline-block;
+    margin: 0px 20px;
+    font-size: 20px;
+}
+header nav .menu ul li a{
+    color: #fff;
+}
+header nav .menu ul li::first-letter{
+    text-transform: uppercase;
+}
+header nav .menu ul li:last-child{
+    background-color: #eb2b63;
+    border: 1px solid #eb2b63;
+    color: #fff;
+    width: 140px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+header nav .menu ul li:hover a{
+    color: #eb2b63;
+}
+header .wrap-header{
+    display: flex;
+    align-items: center;
+    margin: 80px 0px;
+}
+header .wrap-header .text{
+    width: 60%;
+    padding-left: 60px;
+}
+header .wrap-header .text h2{
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    width: 400px;
+}
+header .wrap-header .text p{
+    color: #f9f9f9;
+    font-size: 19px;
+    width: 500px;
+    line-height: 35px;
+    margin-top: -25px;
+}
+header .wrap-header .text button{
+    width: 160px;
+    height: 40px;
+    background-color: #eb2b63;
+    border: 1px solid #eb2b63;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+header .wrap-header .text button a{
+    color: #fff;
+    font-size: 17px;
+    margin-top: 30px;
+}
+header .wrap-header .img{
+    width: 40%;
+}
+header .wrap-header .img img{
+    width: 350px;
+    animation: move 4s ease-in-out infinite alternate;
+    -webkit-animation: move 4s ease-in-out infinite alternate;
+}
+@keyframes move{
+    0%{
+        transform: translateY(-120px);
+    }
+40%{
+    transform: translateX(100px);
+}
+75%{
+    transform: translate(100px,70px);
+}
+100%{
+    transform: translateX(-100px);
+}
+}
+/* start css to the features section */
+.features{
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    margin-top: 50px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #fff;
+}
+.features .top img{
+    text-align: center;
+    display: block;
+    margin: 15px auto;
+}
+.features .top span{
+    color: #ccc;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.features .top h2{
+    color: #000;
+    font-size: 50px;
+    margin-top: -8px;
+}
+.features .box {
+    width: 350px;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    margin: 25px;
+    overflow: hidden;
+}
+.features .box .icon{
+    background-color: #eb2b63;
+    border: 1px solid #eb2b63;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    margin: auto;
+}
+.features .box .icon i{
+    font-size: 30px;
+    line-height: 70px;
+}
+.features .box h4{
+    color: #333;
+    font-size: 25px;
+}
+.features .box p{
+    color: #919090;
+    font-size: 16px;
+    line-height: 30px;
+}
+.features div:nth-child(3) .icon{
+    width: 90px;
+    height: 90px;
+}
+.features div:nth-child(3) .icon i{
+    line-height: 90px;
+}
+/* end css to the features section */
+/* start css to the features_2 section */
+.features_2{
+    width: 100%;
+    height: 500px ;
+    padding: 30px 30px;
+    margin: 50px 0px;
+    text-align: center;
+    overflow: hidden;
+    background: url("img/domain-bg.jpg.webp")  no-repeat;
+    position: relative;
+}
+.icon2{
+    margin-top: 90px;
+}
+.spann{
+    color: #919090;
+    margin-top: 140px;
+    margin-left: -100px;
+    position: absolute;
+}
+.h_h2{
+   color: #ffffff;
+   font-size: 55px;
+   margin-top: 10px;
+}
+.p_2 {
+    color: #919090;
+    margin-top: 5px;
+    margin-right: 320px;
+    font-size: 14px;
+}
+.text1{
+    padding: 20px 300px;
+    margin-left: -100px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.sub{
+    padding: 20px 90px ;
+    border-radius: 10px;
+    border: none;
+    background-color: #eb2b63;
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.sub:hover{
+    cursor: pointer;
+} 
+/* start css to the skills section */
+.skills{
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.skills .skills-left , 
+.skills .slider{
+    width: 50%;
+}
+.skills .skills-left {
+    padding: 0px 60px 0px 120px;
+}
+.skills .skills-left .parent{
+    margin: 15px 0px;
+}
+.skills .skills-left .parent .skills-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.skills .skills-left .parent .skills-bar span{
+    font-size: 17px;
+    color: #333;
+}
+.skills .skills-left .parent li{
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 20px;
+    position: relative;
+    margin: 20px 0px;
+}
+.skills .skills-left .parent li::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 20px;
+}
+.skills .skills-left .parent:first-child li::before{
+    background-color: #eb2b63;
+    width: 80%;
+}
+.skills .skills-left .parent:nth-child(2) li::before{
+    background-color:#eb2bae;
+    width: 90%;
+}
+.skills .skills-left .parent:nth-child(3) li::before{
+    background-color:#d22beb;
+    width: 80%;
+}
+.skills .skills-left .parent:nth-child(4) li::before{
+    background-color: #972beb;
+    width: 60%;
+}
+.skills .skills-left .parent:last-child li::before{
+    background-color: #732beb;
+    width: 70%;
+}
+.skills .skills-left .parent:first-child .skills-bar span:last-of-type{
+    margin-right: 100px;
+}
+.skills .skills-left .parent:nth-child(2) .skills-bar span:last-of-type{
+    margin-right: 50px;
+}
+.skills .skills-left .parent:nth-child(3) .skills-bar span:last-of-type{
+    margin-right: 100px;
+}
+.skills .skills-left .parent:nth-child(4) .skills-bar span:last-of-type{
+    margin-right: 220px;
+}
+.skills .skills-left .parent:last-child .skills-bar span:last-of-type{
+    margin-right: 150px;
+}
+.skills .slider{
+    padding: 0px 80px;
+}
+.skills .slider .text{
+    background-color: #ddd;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+.skills .slider .text::after{
+    content: "";
+    position: absolute;
+    bottom: -11px;
+    right: 20px;
+    background-color: #ddd;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+}
+.profile{
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.client{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.h4_p{
+    margin-right: 25px;
+    font-size: 20px;
+}
+.span_c{
+    font-size: 15px;
+    position: absolute;
+    right: 200px;
+    bottom:  -1980px;
+    font-size: 20px;
+    color: #eb2b63;
+}
+/* end css to the skills section */
+/* start  css to the plans section */
+.top_3{
+margin-top: 100px;
+display: flex;
+justify-content: center;
+position: relative;
+}
+.icon3{
+    position: absolute;
+}
+.span3{
+    position: absolute;
+    top: 50px;
+}
+.h2_h2{
+    position: absolute;
+    top: 15px;
+    font-size: 60px;
+}
+.plans{
+    margin-top: 250px;
+    width: 100% auto ;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.plan1 , .plan2 ,.plan3 {
+    margin: -30px 100px;
+    background-color: #4d1e8d;
+    padding: 15px 110px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.plan1{
+position: absolute;
+left: 50px;
+}
+.plan2{
+    background-color: #eb2b63;
+    position: absolute;
+left: 550px;
+
+}
+.plan3{
+position: absolute;
+right: -20px;
+}
+.plan_details{
+margin-top: 40px;
+display: flex;
+justify-content: center;
+position: relative;
+}
+.details1 ,.details2, .details3 {
+    width: 800px;
+    margin: 10px 100px;
+    padding: 15px 80px;
+    border-radius: 20px;
+    height: 550px;
+    background-color: #eef6f9;
+    color: #585858;
+    position: relative;
+    left: 40px;
+    font-size: 20px;
+}
+.details2{
+    border:2px solid #eb2b63;
+    box-shadow: 0 20px 40px 0 #00000033, 0 20px 40px 0 #00000030;
+}
+.num9 {
+    font-size: 70px;
+
+}
+
+.h4_1GB{
+    position: absolute;
+top: 150px;
+left: 90px;
+}
+.h4_3GB{
+    position: absolute;
+    top: 200px;
+}
+.h4_email{
+position: absolute;
+top: 250px;
+left: 60px;
+
+}
+.h4_security{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+.h4_technical{
+ position: absolute;
+ top: 350px;
+ left: 60px;
+}
+.btn1_plan{
+    background-color: #eb2b63;
+    border: none;
+    padding: 20px 80px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+
+}
+/* end css to the plans section */
+/* start  css to the footer */
+/* start  css to the footer_top */
+.footer_top{
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    background-color: #362268cc;
+    position: relative;
+}
+.footer_photo{
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    position: absolute;
+    z-index: -1;
+}
+.p1_footer , .p2_footer , .btn_footer{
+    color: #ffffff;
+     
+}
+.p1_footer{
+    font-size: 35px;
+position: absolute;
+left: 150px;
+top: 50px;
+
+}
+.p2_footer{
+position: absolute;
+left: 150px;
+top: 120px;
+}
+.btn_footer{
+position: absolute;
+right: 250px;
+top: 90px;
+background-color: #eb2b63;
+padding: 16px 60px;
+border: none;
+border-radius: 10px;
+font-size: 14px;
+}
+.btn_footer , .btn1_plan{
+    cursor: pointer;
+}
+/* end  css to the footer_top */
+/* start css to the footer_bottom */
+.footer_bottom{
+    width: 100%;
+    height: 500px;
+    background-color: #200545;
+    position: relative;
+    font-size: 22px;
+    color: #ffffff;
+}
+.footer_div1{
+    position:relative;
+    top: 90px;
+    display: flex;
+
+}
+.footer_d_photo{ 
+position: absolute;
+left: 200px;
+} 
+.footer_d_p1{ 
+    position: absolute;
+margin:15px 0px 0px 600px;
+width: 200px;
+}
+.footer_d_p2{
+margin:14px 0px 0px  1000px;
+}
+.footer_d_p3{
+    width: 300px;
+    height: 200px;
+    font-size: 16px;
+position: absolute;
+top: 180px;
+left: 200px;
+color: #554171;
+}
+.div_2_1  {
+    position: absolute;
+    top: 180px;
+    left: 600px;
+font-size: 18px;
+}
+.div_2_2{
+    position: absolute;
+    top: 180px;
+    left: 800px;
+font-size: 18px;
+}
+.div_2_3{
+    position: absolute;
+    top: 150px;
+    left: 1100px;
+font-size: 18px;
+}
+.img_b1 ,.img_b2 ,.img_b3{
+    display: flex;
+    width: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.img_b1{
+    position: absolute;
+right: 450px;
+top: 130px;
+}
+.img_b2{
+    position: absolute;
+right: 450px;
+top:190px ;
+}
+.img_b3{
+    position: absolute;
+right: 450px;
+top:260px ;
+}
+.sp1 ,.sp2 ,.sp3{
+    color: #c4265f;
+    font-size: 14px;
+    display: flex;
+    position: absolute;
+    right: 350px;
+}
+.sp1{
+    position: absolute;
+    top: 175px;
+}
+.sp2{
+    position: absolute;
+    top: 255px;
+}
+.sp3{
+    position: absolute;
+    top: 330px;
+}
+.footer_icons a i {
+    font-size: 12px ;
+    height: 20px;
+    padding: 5px 1px;
+    background-color: #491f70;
+  letter-spacing: 10px;
+    border-radius:100px;
+color: #ffffff;
+line-height: 10px;
+
+}
+.footer_icons a i:hover{
+    background-color: #eb2b63;
+   transition: .2s ease-in-out;
+}
+.fa-pinterest{
+    position: absolute;
+    top: 370px;
+    left: 200px;
+}
+.fa-facebook{
+    position: absolute;
+    top: 370px;
+    left: 230px;
+}
+.fa-twitter{
+    position: absolute;
+    top: 370px;
+    left: 260px;
+}
+.fa-globe{
+    position: absolute;
+    top: 370px;
+    left: 290px;
+}
+.fa-behance{
+    position: absolute;
+    top: 370px;
+    left: 320px;
+}
+.bt2{
+    width: 100%;
+    height: 80px;
+    background-color: #1b043b;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.bt2_d1{
+    font-size: 16px;
+    color: #554171;
+}
+.bt2_d2 ul li a {
+    font-size: 16px;
+    color: #554171;
+    position: absolute;
+    top: 10px;
+}
+.bt2_d1 span {
+    color: #2a1781;
+
+}
+ .bt2_d1 span:hover {
+    color: #eb2b63;
+    cursor: pointer;
+}
+.bt2_d2 ul li a:hover{
+    color: #2c1649;
+}
+.li1{
+    position: absolute;
+    top: 10px;
+    right: 600px;
+}
+.li1{
+    position: absolute;
+    top: 10px;
+    right: 550px;
+}
+.li2{
+    position: absolute;
+    top: 10px;
+    right: 400px;
+    width: 80px;
+}
+.li3{
+    position: absolute;
+    top: 10px;
+    right: 400px;
+}
+.li4{
+    position: absolute;
+    top: 10px;
+    right: 330px;
+}
+.li5{
+    position: absolute;
+    top: 10px;
+    right: 280px;
+}
+/* end css to the footer_bottom */
+/* end css to the footer */
